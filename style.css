@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: #f0e4d4;
+    position: relative;
+    top: 200px;
+    width: 550px;
+    border-radius: 2px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    
+}
+
+h1{
+    margin: 10px 0;
+    font-size: 48px;
+}
+
+p{
+    margin-bottom: 40px;
+}
+
+input{
+    border: none;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 10px 0 0 10px ;
+    font-size: 1rem;
+    /* position: relative; */
+}
+
+input:focus{
+    background: #222;
+    color: #fff;
+    border: 0;
+}
+.button{
+    border-radius: 0 10px 10px 0;
+    /* position: absolute; */
+    margin-left: -5px;
+   text-transform: capitalize;
+   background: #222;
+   color: #fff;
+}
+
+.cross{
+    background: #222;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    color: #ddd;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+.container{
+    top: -300px;
+    transform-origin: -010px;
+    animation: drop-down 0.5s ease-in-out forwards, 
+                slide 2s 3s ease forwards ;
+}
+
+@keyframes drop-down{
+    0%{
+        background: black;
+    }
+    65%{
+        background: black;
+    
+    }
+    70%{
+        transform: translateY(500px);
+    }
+    100%{
+        transform: translateY(450px);
+    }
+}
+@keyframes forward{
+    0%{
+        transform: translateX(450px) translateX(-100px);
+    }
+}
+@keyframes slide{
+    0%{transform: translateY(450px) rotateZ(0deg);}
+    40%{transform: translateY(450px) rotateZ(90deg);}
+    70%{transform: translateY(450px) rotateZ(70deg)}
+    100%{transform: translateY(450px) rotateZ(75deg)}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    display: flex;
+    justify-content: center;
+  
+}
+.container{
+    background: #f0e4d4;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    top#
+}
+h1{
+    font-size: 2.5rem;
+    margin: 20px;
+}
+
+p{
+margin-bottom: 30px;
+font-size: 1.1rem;
+}
+
+input{
+border: none;
+border-radius: 10px 0 0 10px;
+font-size: 18px;
+padding: 10px;
+border: 1px solid #333;
+}
+
+.button{
+    padding: 10px;
+    border: none;
+    color: #fff;
+    background: #333;
+    border: 1px solid #333;
+    border-radius: 0 10px 10px 0;
+    font-size: 18px;
+    margin-left: -5px;
+    text-transform: capitalize;
+}
+
+
+.cross{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #555;
+    border-radius: 11px;
+    color: #ddd;
+    width: 22px;
+    height: 22px;
+    font-weight: bold;
+}
+input:focus{
+    border: 1px solid #ddd;
+    background: #333;
+    color: #ddd;
+  
+}
+.container{
+    top: -700%;
+}
+
+
+
+@keyframes drop{
+
+    0%{transform: translateY(-);
+        
+    }
+} */
+
+
+
+
